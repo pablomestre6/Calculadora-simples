@@ -1,0 +1,30 @@
+using System;
+
+namespace MyApp // Note: actual namespace depends on the project name.
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double n1, n2;
+
+            string calc;
+
+            double resultado;
+
+            Console.WriteLine("Digite um numero ");
+            calc = Console.ReadLine();
+            n1 = int.Parse(calc);
+
+            Console.WriteLine("Digite um numero ");
+            calc = Console.ReadLine();
+            n2 = int.Parse(calc);
+
+             resultado = n1 + n2;
+            Console.WriteLine("Soma: " + resultado);
+
+
+            Console.WriteLine("CALCULADORA LOCA");
+        }
+    }
+}
